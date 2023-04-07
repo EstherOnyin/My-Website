@@ -3,42 +3,33 @@
    This file contains the style sheet used for HOME AND RESUME HTML
 
 */
-
 html {
 	background-color: rgba(12, 22, 33, 0.441);
 	background-image: url(HOME_Page.jpg);
-	
 }
-
-body{
+.grid-HOME{
 	background-color: rgba(137, 129, 115, 0.498);
 	font-family: 'Times New Roman', Times, serif; 
 }
-
 /*setting front family for .HOME_Title  */
 .HOME_Title{
 	color: #040719d4;
 	font-size: 3em;
 	text-align: center;
 }
-
 .Horizontal > div{
 	font-size: 18px;
 	text-align: center;
 	padding: 20px 0;
 	font-size: 30px;
 }
-
 a:hover {
 	background-color: rgb(189, 202, 209);
   }
-
 .HOME_INFO{
 	text-align: center;
 	font-weight: bold;
 }
-
-
 footer {
 	color: rgb(194, 135, 142);
 	background-color: rgb(18 46 92 / 84%);
@@ -46,3 +37,8 @@ footer {
 	padding: 10px 0px;
 	text-align: center;
  }
+
+
+ /*This Section is for RESUME. this style sheet is to add background, color,
+ front family, etc.*/
+ 
