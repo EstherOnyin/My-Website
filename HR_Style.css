@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*
+   This file contains the style sheet used for HOME AND RESUME HTML
+
+*/
+
+html {
+	background-color: lightslategrey;
+	
+}
+
+body{
+	background-color: rgb(250, 238, 218);
+	font-family: Verdana, Geneva, Arial, sans-serif; 
+}
+
+/*setting front family for .HOME_Title  */
+.HOME_Title{
+	color: black;
+	font-size: 3em;
+	text-align: center;
+}
+
+.Horizontal > div{
+	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+a:hover {
+	background-color: rgb(77, 196, 255);
+  }
+
+.HOME_INFO{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+footer {
+	color: rgb(194, 135, 142);
+	background-color: rgb(44, 91, 169);
+	font-size: 0.9em;
+	padding: 10px 0px;
+	text-align: center;
+ }

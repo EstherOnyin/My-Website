@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*
+   Layout styles for Slate and Pencil Tutoring
+   Author: Esther Obieme
+   Date:   2/22/2023
+   
+   Filename: HR_layout.css
+*/
+
+/* Window and Body Styles */
+html{
+   height: auto;
+   min-height: auto;
+}
+
+body{
+    height: 100%;
+    width: -50%;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*body grid for Home html  */
+.grid-HOME{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*formatting "IT DATABASE EPROFILO"*/
+.HOME_Title{
+    display: grid;
+    grid-template-rows: 100px;
+    width: auto;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Horizontal{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #d9e4ed;
+    padding: 5px;
+    margin: 50px;
+}
+/*
+.Home_Meun{
+    display: grid;
+    grid-template-columns: .25fr .25fr .25fr .25fr .25fr;
+    grid-template-rows: auto;
+    height: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+*/
+.HO1H{
+    display: block;
+    grid-area: 1 / 1 / span 1 / span 1;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: burlywood;
+    text-align: center;
+}
+a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
+    border-style: dotted;
+    font-weight: bold;
+}
+
+.HO1R{
+    display: block;
+    grid-area: 1 / 2 / span 1 / span 1;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.HO1S{
+    display: block;
+    grid-area: 1 / 3 / span 1 / span 1;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.HO1G{
+    display: block;
+    grid-area: 1 / 4 / span 1 / span 1;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.HO1C{
+    display: block;
+    grid-area: 1 / 5 / span 1 / span 1;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: burlywood;
+    text-align: center;
+
+}
+
+/*Setting Home Information to center*/
+.HOME_INFO{
+    display: grid;
+    grid-template-rows: auto;
+    width: auto;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
