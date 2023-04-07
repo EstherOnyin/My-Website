@@ -12,6 +12,7 @@
 html{
    height: auto;
    min-height: auto;
+   background-repeat: no-repeat;
 }
 
 body{
@@ -34,16 +35,16 @@ body{
     grid-template-rows: 100px;
     width: auto;
     height: 100px;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 20px 0px 20px;
     padding: 10px 10px 10px 10px;
 }
 
 .Horizontal{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    background-color: rgb(53 59 77 / 35%);
     grid-gap: 5px;
-    background-color: #d9e4ed;
-    padding: 5px;
+    padding-left: 29px;
     margin: 50px;
 }
 /*
@@ -63,11 +64,16 @@ body{
     width: 100px;
     padding: 5px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: rgb(18 21 30 / 72%);
     text-align: center;
 }
 a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
     border-style: dotted;
+    border-color: whitesmoke;
+    font-weight: bold;
+    color: #dad7d7a6;
+    box-shadow: 0px 10px 10px 10px;
+    font: 1.25em sans-serif;
     font-weight: bold;
 }
 
@@ -78,7 +84,7 @@ a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
     width: 100px;
     padding: 5px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: rgb(18 21 30 / 72%);
     text-align: center;
 }
 
@@ -89,7 +95,7 @@ a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
     width: 100px;
     padding: 5px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: rgb(18 21 30 / 72%);
     text-align: center;
 }
 
@@ -100,7 +106,7 @@ a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
     width: 100px;
     padding: 5px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: rgb(18 21 30 / 72%);
     text-align: center;
 }
 
@@ -111,7 +117,7 @@ a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
     width: 100px;
     padding: 5px;
     margin: 5px;
-    background-color: burlywood;
+    background-color: rgb(18 21 30 / 72%);
     text-align: center;
 
 }
