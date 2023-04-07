@@ -10,124 +10,114 @@
 
 /* Window and Body Styles */
 html{
-   height: auto;
-   min-height: auto;
-   background-repeat: no-repeat;
-}
-
-body{
-    height: 100%;
-    width: -50%;
-    margin: 20px;
-    padding: 20px;
-}
-
-/*body grid for Home html  */
-.grid-HOME{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-}
-
-/*formatting "IT DATABASE EPROFILO"*/
-.HOME_Title{
-    display: grid;
-    grid-template-rows: 100px;
-    width: auto;
-    height: 100px;
-    margin: 10px 20px 0px 20px;
-    padding: 10px 10px 10px 10px;
-}
-
-.Horizontal{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: rgb(53 59 77 / 35%);
-    grid-gap: 5px;
-    padding-left: 29px;
-    margin: 50px;
-}
-/*
-.Home_Meun{
-    display: grid;
-    grid-template-columns: .25fr .25fr .25fr .25fr .25fr;
-    grid-template-rows: auto;
-    height: 20px;
-    margin: 20px 20px 20px 20px;
-    padding: 10px 10px 10px 10px;
-}
-*/
-.HO1H{
-    display: block;
-    grid-area: 1 / 1 / span 1 / span 1;
-    height: 50px;
-    width: 100px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(18 21 30 / 72%);
-    text-align: center;
-}
-a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
-    border-style: dotted;
-    border-color: whitesmoke;
-    font-weight: bold;
-    color: #dad7d7a6;
-    box-shadow: 0px 10px 10px 10px;
-    font: 1.25em sans-serif;
-    font-weight: bold;
-}
-
-.HO1R{
-    display: block;
-    grid-area: 1 / 2 / span 1 / span 1;
-    height: 50px;
-    width: 100px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(18 21 30 / 72%);
-    text-align: center;
-}
-
-.HO1S{
-    display: block;
-    grid-area: 1 / 3 / span 1 / span 1;
-    height: 50px;
-    width: 100px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(18 21 30 / 72%);
-    text-align: center;
-}
-
-.HO1G{
-    display: block;
-    grid-area: 1 / 4 / span 1 / span 1;
-    height: 50px;
-    width: 100px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(18 21 30 / 72%);
-    text-align: center;
-}
-
-.HO1C{
-    display: block;
-    grid-area: 1 / 5 / span 1 / span 1;
-    height: 50px;
-    width: 100px;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(18 21 30 / 72%);
-    text-align: center;
-
-}
-
-/*Setting Home Information to center*/
-.HOME_INFO{
-    display: grid;
-    grid-template-rows: auto;
-    width: auto;
-    height: 100px;
-    margin: 20px 20px 20px 20px;
-    padding: 10px 10px 10px 10px;
-}
+    height: auto;
+    min-height: auto;
+    background-repeat: no-repeat;
+ }
+ 
+ body{
+     height: 100%;
+     width: -50%;
+     margin: 20px;
+     padding: 20px;
+ }
+ 
+ /*body grid for Home html  */
+ .grid-HOME{
+     display: grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+ }
+ 
+ /*formatting "IT DATABASE EPROFILO"*/
+ .HOME_Title{
+     display: grid;
+     grid-template-rows: 100px;
+     width: auto;
+     height: 100px;
+     margin: 10px 20px 0px 20px;
+     padding: 10px 10px 10px 10px;
+ }
+ 
+ .Horizontal{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     background-color: rgb(53 59 77 / 35%);
+     grid-gap: 5px;
+     padding-left: 29px;
+     margin: 50px;
+ }
+ .HO1H{
+     display: block;
+     grid-area: 1 / 1 / span 1 / span 1;
+     height: 50px;
+     width: 100px;
+     padding: 5px;
+     margin: 5px;
+     background-color: rgb(18 21 30 / 72%);
+     text-align: center;
+ }
+ a.HO1H, a.HO1R, a.HO1S, a.HO1G, a.HO1C {
+     border-style: dotted;
+     border-color: whitesmoke;
+     font-weight: bold;
+     color: #dad7d7a6;
+     box-shadow: 0px 10px 10px 10px;
+     font: 1.25em sans-serif;
+     font-weight: bold;
+ }
+ 
+ .HO1R{
+     display: block;
+     grid-area: 1 / 2 / span 1 / span 1;
+     height: 50px;
+     width: 100px;
+     padding: 5px;
+     margin: 5px;
+     background-color: rgb(18 21 30 / 72%);
+     text-align: center;
+ }
+ 
+ .HO1S{
+     display: block;
+     grid-area: 1 / 3 / span 1 / span 1;
+     height: 50px;
+     width: 100px;
+     padding: 5px;
+     margin: 5px;
+     background-color: rgb(18 21 30 / 72%);
+     text-align: center;
+ }
+ 
+ .HO1G{
+     display: block;
+     grid-area: 1 / 4 / span 1 / span 1;
+     height: 50px;
+     width: 100px;
+     padding: 5px;
+     margin: 5px;
+     background-color: rgb(18 21 30 / 72%);
+     text-align: center;
+ }
+ 
+ .HO1C{
+     display: block;
+     grid-area: 1 / 5 / span 1 / span 1;
+     height: 50px;
+     width: 100px;
+     padding: 5px;
+     margin: 5px;
+     background-color: rgb(18 21 30 / 72%);
+     text-align: center;
+ 
+ }
+ 
+ /*Setting Home Information to center*/
+ .HOME_INFO{
+     display: grid;
+     grid-template-rows: auto;
+     width: auto;
+     height: 100px;
+     margin: 20px 20px 20px 20px;
+     padding: 10px 10px 10px 10px;
+ }
