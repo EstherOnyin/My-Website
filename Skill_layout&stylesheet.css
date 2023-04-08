@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+html{
+    background-image: url(skill_pg.png);
+}
+
+.skill_BG{
+    background-color: rgb(4 29 18 / 67%);
+    text-align: center;
+    margin-top: 134px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: block;
+    color: wheat;
+    font-weight: 900;
+    font-size: 20;
+}
