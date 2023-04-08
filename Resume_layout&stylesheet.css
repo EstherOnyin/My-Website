@@ -3,7 +3,7 @@
    This file contains the style sheet used for HOME AND RESUME HTML
 
 */
-html {
+.R_html{
 	background-color: rgba(12, 22, 33, 0.441);
     background-image: url(RESUME_Page.jpg);
     background-repeat: no-repeat;
