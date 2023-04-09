@@ -1,18 +1,31 @@
 @charset "utf-8";
 
-html{
-    background-image: url(skill_pg.png);
+section{
+    display: block;
+    background-color: rgba(163, 163, 154, 0.783);
+    font-size: 18px;
+    font-weight: bold;
+    width: 740px;
+    height: 380px;
+    margin-top: 93px;
+    margin-left: 100px;
 }
 
-.skill_BG{
-    background-color: rgb(4 29 18 / 67%);
-    text-align: center;
-    margin-top: 134px;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 20px;
+h1{
     display: block;
-    color: wheat;
-    font-weight: 900;
-    font-size: 20;
+    text-align: center;
+}
+
+p{
+    display: block;
+    margin-left: 3px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+form{
+    display: block;
+    margin-left: 20px;
 }

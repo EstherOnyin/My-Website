@@ -6,7 +6,7 @@
 
 html{
     background-color: rgb(39, 38, 38);
-    background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/16194/3D-Cube-iphone-wallpaper-ilikewallpaper_com.jpg);
+    background-image: url(goal_page.jpg);
     background-repeat: repeat;
 }
 
@@ -18,31 +18,29 @@ body{
 
 .grid-for-home{
     display: grid;
-    background-color: rgb(31 30 28 / 80%);
+    background-color: rgba(31, 30, 28, 0.479);
     grid-template-columns: auto;
-    grid-template-rows: .25fr .25fr .25fr .25fr;
-    padding: 20px;
-    width: 55em;
-    margin: 5%;
-    height: 100%;
+    grid-template-rows: .25fr .25fr;
+    width: 80em;
 }
 
 .logo{
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
+    margin-top: 110px;
     grid-area: 1/ 5/ span 1/ span 1;
     opacity: 0.5;
 }
 
 .item1{
     grid-area: 1/ 1 / span 1/ span 4;
-    grid-template-rows: 20px 100px;
     text-align: center;
     font-family: Hanken, Grotesk;
     color: white;
     width: auto;
     height: auto;
+    margin-top: 73px;
 }
 
 .pHome_PG{
@@ -54,12 +52,6 @@ body{
     font-weight: normal;
 }
 
-.home-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    grid-area: 2/ 1/ span 1/ span 1;
-}
 
 /*===========================================================*/
 
